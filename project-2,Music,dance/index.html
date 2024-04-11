@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Dance and music website bt Gaurav Sharma Frontend doveloper">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dance and music</title>
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="wrap1" id="wrap1">
+        <nav class="nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2">
+                        <div class="logo">
+                            <img src="img/logo.png" alt="error">
+                        </div>
+                    </div>
+                    <div class="collap" onclick="opneMenu()">
+                        <span></span><span></span><span></span>
+                    </div>
+                    <div class="col-10">
+                        <div class="menu" id="MyMenu">
+                            <ul>
+                                <li><a href="#wrap1">HOME</a></li>
+                                <li><a href="#Product" onclick="MyProduct()">PRODUCT</a></li>
+                                <li><a href="#Promo">PROME</a></li>
+                                <li><a href="#about">ABOUT</a></li>
+                                <li><a href="#contact">CONTACT</a></li>
+                            </ul>
+                            <div class="search">
+                                <form action="/" class="form1" id="form">
+                                    <label for="form_lable"></label>
+                                    <input type="text" id="form_lable" required>
+                                    <span class="fa fa-search sp"></span>
+                                </form>
+                                <span aria-label="search" class="fa fa-search sp2" onclick="show()"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+        <div class="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-t-12">
+                        <div class="text">
+                            <h1>Title Here</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quidem ullam eius ut in
+                                quos labore neque quam, aut quia.</p>
+                            <button id="reg" class="btn b-btn">RAGISTER NOW</button>
+                            <form id="form_reg" action="/">
+                                <label>
+                                    <input type="text" placeholder="Name" required>
+                                </label>
+                                <label>
+                                    <input type="email" placeholder="Email" required>
+                                </label>
+                                <button type="submit" class="btn">submit</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-6 col-t-12"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="wrap-2" id="wrap2">
+        <div class="container">
+            <div class="row">
+                <div class="wr2-cntnt">
+                    <h2>DANCE TOUR</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum
+                        vestibulum. </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 col-t-12">
+                    <div class="gap">
+                        <img src="img/wr2-dance.png" alt="error" loading="lazy">
+                        <div class="content">
+                            <h3>AMERICA</h3>
+                            <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-t-12">
+                    <div class="gap">
+                        <img src="img/wr2-dance2.png" alt="error" loading="lazy">
+                        <div class="content">
+                            <h3>ASIA</h3>
+                            <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-t-12">
+                    <div class="gap">
+                        <img src="img/wr2-dance3.png" alt="error" loading="lazy">
+                        <div class="content">
+                            <h3>AUSTRALIA</h3>
+                            <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrap-3" id="Product">
+        <div class="container">
+            <div class="row">
+                <div class="wrp3-p">
+                    <h2>PRICING</h2>
+                    <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum
+                        vestibulum. </P>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 col-t-12">
+                    <div class="gap">
+                        <img src="img/award-icon.png" alt="error" loading="lazy">
+                        <h3>BASIC</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, ipsa.</p>
+                        <button class="btn award">
+                            $150.00
+                        </button>
+                    </div>
+                </div>
+                <div class="col-4 col-t-12">
+                    <div class="gap">
+                        <img src="img/award-icon.png" alt="error" loading="lazy">
+                        <h3>PROFESSIONAL</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, ipsa.</p>
+                        <button class="btn award">
+                            $200.00
+                        </button>
+                    </div>
+                </div>
+                <div class="col-4 col-t-12">
+                    <div class="gap">
+                        <img src="img/award-icon.png" alt="error" loading="lazy">
+                        <h3>ULTIMATE</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, ipsa.</p>
+                        <button class="btn award">
+                            $250.00
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrap-4" id="about">
+        <div class="row">
+            <div class="col-6 col-t-12">
+                <div class="img-d">
+                    <img src="img/wra4-left.png" alt="error" loading="lazy">
+                </div>
+            </div>
+            <div class="col-6 col-t-12">
+                <div class="gap">
+                    <h2>AMAZING DANCE</h2>
+                    <p id="demo2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque soluta laudantium aut, error consequuntur enim quas possimus fugit optio quam veritatis nihil quaerat tempore alias accusamus neque et accusantium illum recusandae atque unde! Voluptatibus animi modi eaque minus eos doloremque deserunt</p>
+                    <button class="btn price" onclick="readmore2()">
+                        READ MORE
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrap-5" id="wrap5">
+        <div class="row">
+            <div class="col-6 col-t-12">
+                <div class="gap">
+                    <h2>BEST DANCE</h2>
+                    <p id="demo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque soluta laudantium aut, error consequuntur enim quas possimus fugit optio quam veritatis nihil quaerat tempore alias accusamus neque et accusantium illum recusandae atque unde! Voluptatibus animi modi eaque minus eos doloremque deserunt</p>
+                    <button id="read_more" class="btn price" onclick="readmore()">
+                        READ MORE
+                    </button>
+                </div>
+            </div>
+            <div class="col-6 col-t-12">
+                <div class="img-d">
+                    <img src="img/wrp4right.png" alt="error" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrap-6" id="Promo">
+        <div class="container">
+            <div class="row">
+                <div class="content">
+                    <h2>OUR STATICS</h2>
+                    <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum
+                        vestibulum.</P>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 col-t-12">
+                    <div class="gap">
+                        <p>1240 <span>+</span></p>
+                        <small class="d-block text-center">Club</small>
+                    </div>
+                </div>
+                <div class="col-4 col-t-12">
+                    <div class="gap">
+                        <p>2000 <span>+</span></p>
+                        <small class="d-block text-center">Active Member</small>
+                    </div>
+                </div>
+                <div class="col-4 col-t-12">
+                    <div class="gap">
+                        <p>1.000 <span>+</span></p>
+                        <small class="d-block text-center" aria-label="small">Comunity </small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrap-7" id="wrap7">
+        <div class="container">
+            <div class="row">
+                <div class="simon">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum
+                        vestibulum. </p>
+                    <h3>HERBERT SIMON</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrap-8" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-2 d-none"></div>
+                <div class="col-8 col-t-12">
+                    <h3 class="h2">SUBSCRIBE</h3>
+                    <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum
+                        vestibulum. </P>
+                    <form action="/">
+                        <input type="email" placeholder="Your Email" required>
+                        <button class="btn" type="button">SUBSCRIBE</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="wrap-9" id="wrap9">
+        <div class="container">
+            <div class="row footer">
+                <div class="col-6 col-t-12 col-p-12">
+                    <div class="gap-1">
+                        <h4>MUSICLOGY</h4>
+                        <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at dignissim nunc, id
+                            maximus ex. Etiam nec dignissim elit, at dignissim enim.</P>
+                        <div class="social col-t-12">
+                            <a href="https://www.instagram.com" target="_blank">
+                                <span class="fa fa-instagram" aria-label="icons"></span>
+                            </a>
+                            <a href="https://www.facebook.com" target="_blank">
+                                <span class="fa fa-facebook" aria-label="icons"></span>
+                            </a>
+                            <a href="https://www.twitter.com" target="_blank">
+                                <span class="fa fa-twitter" aria-label="icons"></span>
+                            </a>
+                            <a href="https://www.whatsaap.com" target="_blank">
+                                <span class="fa fa-whatsapp" aria-label="icons"></span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-6 col-t-12 col-p-12">
+                    <div class="row footer">
+                        <div class="col-4 col-p-12">
+                            <div class="gap footer">
+                                <h4>SERVICES</h4>
+                                <ul>
+                                    <li><a href="#">History</a></li>
+                                    <li><a href="#">Our Team</a></li>
+                                    <li><a href="#">Brand Guideline</a></li>
+                                    <li><a href="#">Terms & Condition</a></li>
+                                    <li><a href="#">Privacy & Policy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-4 col-p-12">
+                            <div class="gap footer">
+                                <h4>OTHER</h4>
+                                <ul>
+                                    <li><a href="#">How To Order</a></li>
+                                    <li><a href="#">Our Product</a></li>
+                                    <li><a href="#">Order Status</a></li>
+                                    <li><a href="#">Promo</a></li>
+                                    <li><a href="#">Payment Method</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-4 col-p-12">
+                            <div class="gap footer">
+                                <h4>ABOUT</h4>
+                                <ul>
+                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="#">Help</a></li>
+                                    <li><a href="#">Privacy</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
